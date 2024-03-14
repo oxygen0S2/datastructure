@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // 자료형에 대한 메모리 할당 크기 확인하기
-void main() {
+void main()
+{
     char c, c_array[100];
     int i, i_array[100];
     short s, s_array[100];
