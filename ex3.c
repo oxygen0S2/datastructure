@@ -10,7 +10,7 @@ void main() {
 
     while(1) {
         scanf("%d", &n);
-        if (n < 0 || n < 9)
+        if (n < 0 || n > 9)
             printf("\n1~9의 정수를 입력하세요: ");
         else
             break;
