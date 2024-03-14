@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//학년별 취득 학점 입출력하기
 void main()
 {
     int i;
