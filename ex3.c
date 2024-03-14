@@ -1,5 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+//입력한 숫자를 구구단으로 출력
 void main() {
     int i = 0, n;
     int multiply[9];
