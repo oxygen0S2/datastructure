@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "CircularLinkedList.h"
 
+//원형 연결 리스트에서 노드 삽입ㆍ삭제ㆍ탐색하기
 int main(void)
 {
 	linkedList_h* CL;
 	listNode* p;
 
-	CL = createLinkedList_h();
+	CL = createLinkedList_h(); //공백 원형 연결 리스트 생성
 	printf("(1)원형 연결 리스트 생성\n");
 	printList(CL);
 

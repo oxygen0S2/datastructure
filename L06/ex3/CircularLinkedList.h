@@ -1,9 +1,11 @@
 #pragma once
+//원형 연결 리스트의 노드 구조를 구조체로 정의
 typedef struct ListNode {
 	char data[4];
 	struct ListNode* link;
 } listNode;
 
+//리스트 시작 head 노드를 구조체로 정의
 typedef struct {
 	listNode* head;
 } linkedList_h;
