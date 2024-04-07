@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "stackS.h"
 
 int top = -1;
@@ -7,7 +8,7 @@ int top = -1;
 int isStackEmpty(void)
 {
 	if (top == -1)
-		return 1;
+		return 1; //공백 상태라면 1 반환
 	else
 		return 0;
 }
@@ -16,7 +17,7 @@ int isStackEmpty(void)
 int isStackFull(void)
 {
 	if (top == STACK_SIZE - 1)
-		return 1;
+		return 1; //포화 상태라면 1 반환
 	else
 		return 0;
 }
