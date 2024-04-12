@@ -1,5 +1,6 @@
 #include "cQueueS.h"
 
+//순차 자료구조를 이용해 원형 queue 구현
 int main()
 {
 	QueueType* cQ = createCQueue();

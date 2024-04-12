@@ -1,5 +1,6 @@
 #include "queueS.h"
 
+//순차 자료구조를 이용해 순차 queue 구현
 int main()
 {
 	QueueType* Q1 = createQueue(); //queue 생성
