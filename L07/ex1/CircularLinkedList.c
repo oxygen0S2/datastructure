@@ -86,7 +86,8 @@ void deleteNode(linkedList_h* CL, listNode* old) {
 	if (CL->head == NULL) //공백 리스트인 경우 삭제 연산 중단
 		return;
 
-	if (CL->head->link == CL->head) { //리스트에 노드가 한 개만 있는 경우
+	if (CL->head->link == CL->head) //리스트에 노드가 한 개만 있는 경우
+	{
 		free(CL->head); //첫 번째 노드 메모리 해제
 		CL->head = NULL; //리스트 시작 포인터를 NULL로 설정
 		return;
